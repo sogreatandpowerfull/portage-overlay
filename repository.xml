@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo priority="50" quality="experimental" status="unofficial">
+    <name><![CDATA[sogreatandpowerful]]></name>
+    <description lang="en"><![CDATA[sogreatandpowerful's portage overlay]]></description>
+    <homepage>https://github.com/sogreatandpowerfull/portage-overlay</homepage>
+    <owner type="person">
+      <email>sogreatandpowerful@tuta.io</email>
+      <name><![CDATA[sogreatandpowerful]]></name>
+    </owner>
+    <source type="git">https://github.com/sogreatandpowerfull/portage-overlay.git</source>
+    <feed>https://github.com/sogreatandpowerfull/portage-overlay/commits/experimental.atom</feed>
+  </repo>
+</repositories>
