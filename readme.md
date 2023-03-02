@@ -5,7 +5,7 @@ Highly experimental personal portage overlay
 There are two main methods for making use of this repository, discussed in the sections below.
 
 ### Local Repository
-For the [local repository](https://wiki.gentoo.org/wiki/Handbook:Parts/Portage/CustomTree#Defining_a_custom_repository) method, create a `/etc/portage/repos.conf/sogreatandpowerful` file and add the following:
+For the [local repository](https://wiki.gentoo.org/wiki/Handbook:Parts/Portage/CustomTree#Defining_a_custom_repository) method, create `/etc/portage/repos.conf/sogreatandpowerful` and add the following:
 ```
 [sogreatandpowerful]
 priority = 50
@@ -14,7 +14,7 @@ sync-type = git
 sync-uri = https://github.com/sogreatandpowerfull/portage-overlay.git
 auto-sync = Yes
 ```
-Then run `<superuser> emerge --sync sogreatandpowerful`. Portage should now find and update the repository.
+Then run `<superuser> emerge --sync sogreatandpowerful` to sync and update the repository.
 
 ### Layman
 You can also use the Layman tool to add and sync the repository. Execute the following:
