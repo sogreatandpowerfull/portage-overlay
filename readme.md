@@ -1,5 +1,5 @@
 # About
-sogreatandpowerful's portage overlay
+Highly experimental personal portage overlay
 
 ## Using this repository
 There are two main methods for making use of this repository, discussed in the sections below.
